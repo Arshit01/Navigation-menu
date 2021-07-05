@@ -4,19 +4,22 @@
   }
 
   .toggler {
+    position: relative;
     width: 100%;
     height: 5px;
     transition: all 550ms ease;
+    transform: none;
   }
 
   .nav-list {
     display: block;
     text-align: center;
     transition: 700ms ease-out;
+    margin: 0;
   }
 
   .collapse {
-    height: 45vh;
+    height: 50vh;
     transition: all 550ms ease;
   }
 
